@@ -14,7 +14,7 @@ if __name__ == "__main__":
     else:
         pc.create_index(
             name=index_name,
-            dimension=1536,  # the size of OpenAI's text-embedding-3-small vectors
+            dimension=1024,  # the size of qwen3-embedding:0.6b vectors
             metric="cosine",
             spec=ServerlessSpec(cloud="aws", region="us-east-1"),
         )

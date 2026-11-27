@@ -8,6 +8,7 @@ dependencies = [
     "certifi>=2026.11.20",
     "langchain>=1.5.2",
     "langchain-chroma>=1.1.0",
+    "langchain-ollama>=1.2.0",
     "langchain-openai>=1.8.5",
     "langchain-pinecone>=0.2.13",
     "langchain-tavily>=0.2.18",
